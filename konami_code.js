@@ -14,6 +14,9 @@ const codes = [
 let index = 0;
 
 function init(e) {
+  document.body.addEventListener('keydown',function(e){
+    
+  }
 const key = e.key;
  
   if (key === codes[index]) {
@@ -28,4 +31,4 @@ const key = e.key;
     index = 0;
   }
 }
-document.body.addEventListener('keydown',init)
+
